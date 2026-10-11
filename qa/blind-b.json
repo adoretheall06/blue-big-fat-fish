@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "ambiguous",
+      "reason": "A has a slight rightward face turn and rightward eye placement. B shows a nearly symmetric frontal face with an upward gaze and no clear horizontal direction."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A exposes the face toward the left with the eyes and nose directed left; B reverses this facial orientation toward the right."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A has an obvious rightward three-quarter face and eye line. B has an obvious leftward three-quarter face and eye line."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A presents a left-facing profile-like face, while B presents the corresponding right-facing face; the visible cheek, nose, and eyes support these directions."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A has the visible face and eyes turned left. B lowers the head but the facial opening, nose, and eye line still angle right."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A looks downward with a slight rightward face angle and right-shifted facial features. B looks downward with a clear leftward face angle."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A bows the head with a slight leftward face turn and left-shifted features. B bows almost squarely forward with a symmetric face and no reliable horizontal cue."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A bows the head, with bangs covering the eyes and a compressed face below them. B raises the chin and eyes, exposing more of the lower face."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A has lifted eyes and chin with an open visible face. B lowers the head and looks out beneath descending bangs."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A lifts the face and eyes toward the upper right. B lowers the face, with the eye line under the bangs and chin tucked."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A has a tucked chin and lowered eye line. B raises the chin and directs the visible eye upward."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A bows the head so the bangs obscure much of the eyes. B lifts the face and both eyes upward."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A has an elevated face and upward eye line despite the sideways turn. B has a lowered face, covered upper eyes, and tucked chin."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A angles the face downward while looking left, with the eye line low beneath the fringe. B lifts the chin and face toward the upper left."
+    }
+  ]
+}

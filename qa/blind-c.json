@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "ambiguous",
+      "reason": "A's exposed face and chin sit slightly to the right of the head and torso center. B shows a nearly symmetrical frontal face with both eyes equally exposed, without a clear sideways turn."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's eyes, cheek and chin are shifted toward the left edge of the head; B's face and chin project toward the right."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A has a right-facing cheek and nose contour with the far eye compressed. B has the corresponding visible face contour projecting left."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's visible eye and nose are concentrated on the left side of the head. B's visible eye and projecting face contour point right."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's nose and exposed cheek point left. B's lowered face is displaced right under the bangs, with the chin and visible eye region toward the right."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's bowed face and chin are displaced slightly right of the crown and body center. B's visible eye, cheek and chin are displaced left."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A's bowed face is offset left, with more of the facial region visible toward the left. B's lowered eyes and chin appear centered and nearly symmetrical, so its horizontal direction is unclear."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A's crown dominates while its eyes and face tuck beneath the bangs toward the chest. B raises the face, exposes the chin and looks upward with open eyes."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A shows open upward-looking eyes and an exposed lower face. B bows the head, with narrowed eyes low beneath the bangs and the chin tucked inward."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A's face is lifted with the chin projecting outward and the visible eyes looking high. B's eyes are lowered beneath the bangs and the crown is more prominent."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A's eyes sit low under a forward-drooping fringe and its chin angles inward. B lifts the visible cheek and chin, with its eye directed upward."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A's face is tucked beneath the fringe and angled toward the chest. B exposes the raised chin and broad lower face with upward-looking eyes."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A's open eyes and cheek face upward, with the chin held away from the chest. B lowers the head and hides more of the face under the fringe."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A's fringe hangs over the lowered eye region and the chin tucks inward. B's side-facing cheek and chin are lifted, exposing more lower face beneath the eye."
+    }
+  ]
+}

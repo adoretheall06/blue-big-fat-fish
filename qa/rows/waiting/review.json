@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "frames_root": ".\\qa\\rows\\waiting\\frames",
+  "states": [
+    "waiting"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": ".\\qa\\rows\\waiting\\frames\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17985,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 101
+        },
+        {
+          "index": 1,
+          "file": ".\\qa\\rows\\waiting\\frames\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17960,
+          "bbox": [
+            23,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 95
+        },
+        {
+          "index": 2,
+          "file": ".\\qa\\rows\\waiting\\frames\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17790,
+          "bbox": [
+            23,
+            7,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 77
+        },
+        {
+          "index": 3,
+          "file": ".\\qa\\rows\\waiting\\frames\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17785,
+          "bbox": [
+            24,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 84
+        },
+        {
+          "index": 4,
+          "file": ".\\qa\\rows\\waiting\\frames\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17889,
+          "bbox": [
+            24,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 93
+        },
+        {
+          "index": 5,
+          "file": ".\\qa\\rows\\waiting\\frames\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17743,
+          "bbox": [
+            23,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 86
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "frames_root": ".\\qa\\rows\\failed\\frames",
+  "states": [
+    "failed"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": ".\\qa\\rows\\failed\\frames\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16204,
+          "bbox": [
+            35,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 70
+        },
+        {
+          "index": 1,
+          "file": ".\\qa\\rows\\failed\\frames\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15941,
+          "bbox": [
+            36,
+            6,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 68
+        },
+        {
+          "index": 2,
+          "file": ".\\qa\\rows\\failed\\frames\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15591,
+          "bbox": [
+            36,
+            9,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 78
+        },
+        {
+          "index": 3,
+          "file": ".\\qa\\rows\\failed\\frames\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15651,
+          "bbox": [
+            34,
+            9,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 80
+        },
+        {
+          "index": 4,
+          "file": ".\\qa\\rows\\failed\\frames\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15630,
+          "bbox": [
+            34,
+            9,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 57
+        },
+        {
+          "index": 5,
+          "file": ".\\qa\\rows\\failed\\frames\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15722,
+          "bbox": [
+            34,
+            8,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 67
+        },
+        {
+          "index": 6,
+          "file": ".\\qa\\rows\\failed\\frames\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15567,
+          "bbox": [
+            34,
+            9,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 67
+        },
+        {
+          "index": 7,
+          "file": ".\\qa\\rows\\failed\\frames\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15267,
+          "bbox": [
+            38,
+            9,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 50
+        }
+      ]
+    }
+  ]
+}

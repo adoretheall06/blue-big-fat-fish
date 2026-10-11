@@ -1,0 +1,18 @@
+{
+  "source_atlas": ".\\final\\spritesheet-extended.png",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "all_states_mp4": "all-states.mp4",
+  "idle_jump_idle": "idle-jump-idle.gif",
+  "look_loop": "look-loop.gif",
+  "stills": "motion-stills.png"
+}

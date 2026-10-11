@@ -1,0 +1,124 @@
+{
+  "atlas_sha256": "24ceb96d410f10168baf4fd814b5312efa248aec2c4079dc9685cb3bfce30537",
+  "evidence": "Final normal-scale labeled direction-sheet.png and focused head crops, plus three independent blind axis reviews.",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "Raised chin and open face, original eyes directed upward.",
+      "verdict": "pass",
+      "reason": "Chin extends above collar; face is pitched back and eye line is raised. Body and feet remain frontal."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "Raised face with gentle screen-right yaw.",
+      "verdict": "pass",
+      "reason": "Face projects right of head center; visible right-side profile and raised chin distinguish it from neutral and pure up."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "Upward screen-right gaze and head turn.",
+      "verdict": "pass",
+      "reason": "Rightward cheek projection and raised eye line are visible with torso and apron held frontal."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "Stronger right turn with upward pitch.",
+      "verdict": "pass",
+      "reason": "Near eye dominates and far eye is partly hidden under fringe, with chin lifted relative to 112.5."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "Clear screen-right head profile.",
+      "verdict": "pass",
+      "reason": "Nose and cheek point right; far eye is occluded. Feet and apron remain forward, so this is a head turn."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "Rightward face turned downward.",
+      "verdict": "pass",
+      "reason": "Crown becomes more exposed and eye line drops beneath fringe while cheek and visible eye remain right of center."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "Deep downward pitch with slight right yaw.",
+      "verdict": "pass",
+      "reason": "Lowered eye line and tucked chin are clear; asymmetric fringe and cheek retain a rightward bias confirmed by all blind reviewers."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "Downward gaze approaching frontal; horizontal component is difficult to read at normal scale.",
+      "verdict": "warning",
+      "reason": "Crown and lowered eyes establish down. Both eyes nearly symmetric; the intended small right component is ambiguous to all blind reviewers. Accepted as a near-vertical transition, not as a strong right cue."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "Strong frontal downward head pitch.",
+      "verdict": "pass",
+      "reason": "Symmetric crown and fringe dominate above the lowered face; chin is tucked close to collar. Both blind vertical cardinal checks passed."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "Downward face with a slight left offset.",
+      "verdict": "pass",
+      "reason": "Eye line remains low; cheek projects left beneath the fringe. All three blind reviewers found leftward bias."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "Head angles down toward screen-left.",
+      "verdict": "pass",
+      "reason": "Left cheek and near eye dominate below a visible crown; nose projects left while apron and feet stay frontal."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "Clear left turn with lowered chin.",
+      "verdict": "pass",
+      "reason": "Far eye is obscured and left-facing cheek projects out; chin lies lower than in 292.5."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "Clear screen-left head profile.",
+      "verdict": "pass",
+      "reason": "Visible eye, nose and cheek face left while body remains forward. All three blind horizontal cardinal reviews passed."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "Left-facing head with raised gaze.",
+      "verdict": "pass",
+      "reason": "Chin and eye line rise; far eye is hidden and cheek projects left, unlike the corresponding down-left pose."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "Upward gaze and leftward yaw.",
+      "verdict": "pass",
+      "reason": "Raised face and left-offset nose/cheek remain readable without relying on labels; all blind reviewers agree."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "Raised nearly frontal face; horizontal component is difficult to read at normal scale.",
+      "verdict": "warning",
+      "reason": "Chin and eyes clearly point up. Both eyes appear almost symmetric; all blind reviewers marked the intended slight left component ambiguous. Accepted as the transition back to pure up."
+    }
+  ],
+  "continuity_review": {
+    "alpha_holes": "Flagged low rows are the expected transparent gap between separated legs below the skirt, not missing material in head or clothing.",
+    "157.5_to_180": "Reviewed normal-scale boundary. Approximately 11 percent visible-area change and 3.8px center movement; small size step, no detached features or character identity change.",
+    "337.5_to_000": "Reviewed wrap boundary. Approximately 6.8 percent visible-area change and 4.7px center movement; head pitch stays upward and body stays planted.",
+    "limitations": "Several neighboring up-right poses are similar. Near-vertical horizontal cues at 157.5 and 337.5 remain subtle/ambiguous. No cardinal ambiguity or opposite-direction error was observed."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "reason": "Reserve true jump lift while keeping resting body size and ground contact consistent across animation states. One shared scale and registration per row; generated pose pixels are preserved.",
+  "target_rest_height": 152,
+  "target_baseline": 203,
+  "rows": [
+    {
+      "state": "idle",
+      "shared_scale": 0.7676767676767676,
+      "source_baseline": 203.0,
+      "translation": [
+        22,
+        47
+      ]
+    },
+    {
+      "state": "running-right",
+      "shared_scale": 0.769620253164557,
+      "source_baseline": 202.5,
+      "translation": [
+        22,
+        47
+      ]
+    },
+    {
+      "state": "running-left",
+      "shared_scale": 0.769620253164557,
+      "source_baseline": 202.5,
+      "translation": [
+        22,
+        47
+      ]
+    },
+    {
+      "state": "waving",
+      "shared_scale": 0.7676767676767676,
+      "source_baseline": 203.0,
+      "translation": [
+        22,
+        47
+      ]
+    },
+    {
+      "state": "jumping",
+      "shared_scale": 1.0,
+      "source_baseline": 203,
+      "translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "state": "failed",
+      "shared_scale": 0.7835051546391752,
+      "source_baseline": 203.0,
+      "translation": [
+        21,
+        44
+      ]
+    },
+    {
+      "state": "waiting",
+      "shared_scale": 0.7676767676767676,
+      "source_baseline": 203.0,
+      "translation": [
+        22,
+        47
+      ]
+    },
+    {
+      "state": "running",
+      "shared_scale": 0.769620253164557,
+      "source_baseline": 203.0,
+      "translation": [
+        22,
+        47
+      ]
+    },
+    {
+      "state": "review",
+      "shared_scale": 0.7676767676767676,
+      "source_baseline": 203.0,
+      "translation": [
+        22,
+        47
+      ]
+    }
+  ]
+}

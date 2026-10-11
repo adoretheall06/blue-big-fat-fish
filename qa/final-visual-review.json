@@ -1,0 +1,84 @@
+{
+  "pet_name": "蓝色大肥鱼",
+  "reviewer": "independent_visual_worker",
+  "verdict": "pass_with_warnings",
+  "blocking_failures": [],
+  "reviewed_artifacts": [
+    "qa/direction-sheet.png",
+    "qa/contact-sheet-final.png",
+    "previews/motion-stills.png"
+  ],
+  "method": "Independent direct visual inspection of labeled final direction sheet at normal pet size and its face-detail rows, complete chronological final contact sheet, and motion stills. GIF frame counts and timing were checked; continuous playback was not observed. No blind-review key or existing semantic verdicts were read.",
+  "cardinals": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "evidence": "Face tilts upward; both blue pupils are high, chin lifts, and the mouth sits below the raised eye line. Torso, skirt, shoes and attached tail retain the frontal anchor."
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "evidence": "Face has unmistakable screen-right profile with nose and visible iris aiming right; back hair and blue bow remain attached. Torso and feet continue facing front."
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "evidence": "Head bows straight down, forehead and top hair become prominent, eyes narrow underneath the bangs, and nose/mouth sit low above the collar."
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "evidence": "Face shows unmistakable screen-left profile: visible iris and protruding nose aim left. Body, apron and shoes remain front-anchored."
+    }
+  ],
+  "near_vertical_intermediates": [
+    {
+      "direction": "022.5",
+      "verdict": "pass",
+      "evidence": "Raised gaze combines with a small screen-right head yaw; near-side eye/nose displacement and unequal visibility of the two face halves establish the rightward component."
+    },
+    {
+      "direction": "157.5",
+      "verdict": "pass_with_warning",
+      "evidence": "Dominantly bowed face with a weak screen-right component in face/eye asymmetry. The rightward component is discernible when comparing neighbors but is subtle at 192x208 size."
+    },
+    {
+      "direction": "202.5",
+      "verdict": "pass_with_warning",
+      "evidence": "Dominantly bowed face with a small screen-left nose/eye displacement. The leftward component is much weaker than in 225 and should be understood as a subtle interpolation, not a strong diagonal."
+    },
+    {
+      "direction": "337.5",
+      "verdict": "pass_with_warning",
+      "evidence": "Both pupils remain lifted; small screen-left face/eye asymmetry provides the leftward component, which is weak at normal size. It does not visibly point into the opposite quadrant."
+    }
+  ],
+  "transitions": [
+    {
+      "transition": "157.5 -> 180",
+      "verdict": "pass",
+      "evidence": "Both poses bow downward; the small rightward head yaw resolves toward front-center. Shoes, torso, tail and overall scale remain similar. No broad whole-character turn or registration jump is apparent."
+    },
+    {
+      "transition": "337.5 -> 000",
+      "verdict": "pass",
+      "evidence": "Both poses look upward; the slight leftward head yaw resolves toward centered up. Head/eye construction, body anchor and skirt baseline remain stable without a visually obvious seam."
+    }
+  ],
+  "animation_and_identity": {
+    "verdict": "pass",
+    "evidence": [
+      "All rows preserve the blue gradient long hair, lace maid headband, paired cyan bows, whale apron, gold trim, navy shoes and attached whale tail. No detached body parts, extra limbs, clipped whole poses or gross style changes are visible.",
+      "Idle contains a readable eyelid blink with quiet pose changes. Waiting has hands clasped at chest and head tilts; review uses a thinking cheek/chin pose, making them distinguishable.",
+      "The two travel rows face the correct opposite directions and show alternating leg positions rather than a single duplicated standing pose.",
+      "Jumping has a clear elevated peak with feet higher than the standing baseline, arms raised and hair/skirt following. First frame is crouched and the last returns toward standing.",
+      "Waving raises one hand near the face; failed has drooping head/closed eyes; active-work running remains a front-facing thinking/working loop rather than foot travel.",
+      "GIF metadata reports 6 idle, 8 right travel, 8 left travel, 4 waving, 5 jumping, 8 failed, 6 waiting, 6 active-work, 6 review and 16 look frames. Idle-jump-idle contains 17 frames."
+    ]
+  },
+  "warnings": [
+    "Near-vertical 157.5, 202.5 and 337.5 have deliberately weak horizontal components at normal pet size. These are not reversed, but fine angular distinctions are less strong than the four cardinals.",
+    "Up-right neighboring head poses 022.5, 045 and 067.5 appear unevenly spaced in apparent yaw; visual continuity is plausible but does not demonstrate physically uniform 22.5-degree increments.",
+    "This independent pass inspected chronological static frames and GIF structure rather than continuous playback, so it does not certify subtle temporal smoothness beyond the visible consecutive-pose continuity."
+  ]
+}

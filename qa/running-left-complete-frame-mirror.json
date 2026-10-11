@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "approved": true,
+  "source": "qa/frames-source/running-right",
+  "target": "qa/frames-source/running-left",
+  "method": "Mirror complete connected pose groups individually in place, preserve temporal order. Replaces slot-based mirrored extraction that retained one neighboring strand."
+}

@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": [
+        ".\\qa\\frames-source\\idle\\00.png",
+        ".\\qa\\frames-source\\idle\\01.png",
+        ".\\qa\\frames-source\\idle\\02.png",
+        ".\\qa\\frames-source\\idle\\03.png",
+        ".\\qa\\frames-source\\idle\\04.png",
+        ".\\qa\\frames-source\\idle\\05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running-right",
+      "frames": [
+        ".\\qa\\frames-source\\running-right\\00.png",
+        ".\\qa\\frames-source\\running-right\\01.png",
+        ".\\qa\\frames-source\\running-right\\02.png",
+        ".\\qa\\frames-source\\running-right\\03.png",
+        ".\\qa\\frames-source\\running-right\\04.png",
+        ".\\qa\\frames-source\\running-right\\05.png",
+        ".\\qa\\frames-source\\running-right\\06.png",
+        ".\\qa\\frames-source\\running-right\\07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running-left",
+      "frames": [
+        ".\\qa\\frames-source\\running-left\\00.png",
+        ".\\qa\\frames-source\\running-left\\01.png",
+        ".\\qa\\frames-source\\running-left\\02.png",
+        ".\\qa\\frames-source\\running-left\\03.png",
+        ".\\qa\\frames-source\\running-left\\04.png",
+        ".\\qa\\frames-source\\running-left\\05.png",
+        ".\\qa\\frames-source\\running-left\\06.png",
+        ".\\qa\\frames-source\\running-left\\07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "waving",
+      "frames": [
+        ".\\qa\\frames-source\\waving\\00.png",
+        ".\\qa\\frames-source\\waving\\01.png",
+        ".\\qa\\frames-source\\waving\\02.png",
+        ".\\qa\\frames-source\\waving\\03.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "jumping",
+      "frames": [
+        ".\\qa\\frames-source\\jumping\\00.png",
+        ".\\qa\\frames-source\\jumping\\01.png",
+        ".\\qa\\frames-source\\jumping\\02.png",
+        ".\\qa\\frames-source\\jumping\\03.png",
+        ".\\qa\\frames-source\\jumping\\04.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "failed",
+      "frames": [
+        ".\\qa\\frames-source\\failed\\00.png",
+        ".\\qa\\frames-source\\failed\\01.png",
+        ".\\qa\\frames-source\\failed\\02.png",
+        ".\\qa\\frames-source\\failed\\03.png",
+        ".\\qa\\frames-source\\failed\\04.png",
+        ".\\qa\\frames-source\\failed\\05.png",
+        ".\\qa\\frames-source\\failed\\06.png",
+        ".\\qa\\frames-source\\failed\\07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "waiting",
+      "frames": [
+        ".\\qa\\frames-source\\waiting\\00.png",
+        ".\\qa\\frames-source\\waiting\\01.png",
+        ".\\qa\\frames-source\\waiting\\02.png",
+        ".\\qa\\frames-source\\waiting\\03.png",
+        ".\\qa\\frames-source\\waiting\\04.png",
+        ".\\qa\\frames-source\\waiting\\05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running",
+      "frames": [
+        ".\\qa\\frames-source\\running\\00.png",
+        ".\\qa\\frames-source\\running\\01.png",
+        ".\\qa\\frames-source\\running\\02.png",
+        ".\\qa\\frames-source\\running\\03.png",
+        ".\\qa\\frames-source\\running\\04.png",
+        ".\\qa\\frames-source\\running\\05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "review",
+      "frames": [
+        ".\\qa\\frames-source\\review\\00.png",
+        ".\\qa\\frames-source\\review\\01.png",
+        ".\\qa\\frames-source\\review\\02.png",
+        ".\\qa\\frames-source\\review\\03.png",
+        ".\\qa\\frames-source\\review\\04.png",
+        ".\\qa\\frames-source\\review\\05.png"
+      ],
+      "method": "components"
+    }
+  ]
+}
